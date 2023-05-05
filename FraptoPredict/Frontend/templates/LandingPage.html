@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+    {% block content %}
+	<h1><b>WELCOME TO FRAPTOpredict</h1>
+	
+    <a href="{{url_for('login')}}">Login Page</a>
+    <a href="{{url_for('register')}}">Register Page</a>
+	<div class="chart">
+        <canvas id="myChart">
+		    <!-- Insert the Bitcoin price chart here -->
+        </canvas>
+	</div>
+
+
+    {% endblock %}
+
+
+	

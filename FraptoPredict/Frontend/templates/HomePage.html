@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+		
+{% block content %}
+	<div class="big-text">
+    	<p>Date: {{ date }}</p>
+    	<p>Price: {{ price }}</p>
+  	</div>
+  	<div class="chart">
+    	<!-- Insert the Bitcoin price chart here -->
+  	</div>
+  	<a href="{{url_for('logout')}}">Press here to logout</a>
+{% endblock %}
+		
+
+
+
+

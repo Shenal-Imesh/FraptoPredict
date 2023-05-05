@@ -1,0 +1,112 @@
+.navbar {
+    background-color: #4d4d4d; /* set background color to Bitcoin dark color */
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 28px; /* make the FRAPTOpredict text larger */
+    font-weight: bold; /* make the FRAPTOpredict text bold */
+    color: #f7931a; /* set text color to Bitcoin orange */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4d4d4d; /* set text color of links to white */
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .chart {
+    width: 80%;
+    margin: 50px auto;
+    border: 5px solid #f7931a;
+    padding: 70px;
+  }
+  
+  .chart img {
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #F7931A;
+    margin-top: 50px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 2em;
+    color: #F7931A;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  form label {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="submit"] {
+    background-color: #F7931A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #D87813;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #F7931A;
+  }
+  
+  a:hover {
+    color: #D87813;
+  }
+
+  .card-header {
+    text-align: center;
+    font-weight: bold;
+    color: #f7931a;
+    background-color: #4d4d4d;
+  }
+
+  .about-container {
+    border: 5px solid #F7931A;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
